@@ -1,0 +1,671 @@
+/*======================
+  GOOGLE FONTS ACTIVATE
+=========================*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+
+/*==================
+   GLOBAL CSS
+====================*/
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+}
+h1, h2, h3, h4, h5, h6, p {
+    padding:0;
+    margin:0;
+}
+li {
+    list-style: none;
+}
+a, a:hover {
+    text-decoration: none;
+}
+.custom-btn {
+    display: inline-block;
+    color:#fefefe;
+    font-size:16px;
+    padding:15px 60px;
+    border-radius: 5px;
+    border:2px solid transparent;
+    transition: all 0.5s ease-in-out;
+}
+.heading h4 {
+    font-size:18px;
+    color:#12c2e9;
+}
+.heading h1 {
+    font-size:30px;
+    color:#fff;
+    text-transform: uppercase;
+    padding:15px 0 25px;
+}
+.heading .divider {
+    display: block;
+    width: 60px;
+    height:2px;
+    background:linear-gradient(#d20039, #e60115);
+    margin: auto;
+}
+
+/*==================
+  HEADER SECTION CSS
+====================*/
+.header-section {
+    background: url('../images/banner-image.jpg') no-repeat center center;
+    background-size:cover;
+}
+.header-section .row {
+    min-height:90vh;
+    align-items: center;
+}
+.header-section .navbar {
+    padding:0;
+    padding-top:25px;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size:16px;
+    padding:5px 30px;
+    transition: all 0.4s ease-in-out;
+}
+.header-section .navbar-light .navbar-nav .nav-link:last-child {
+    padding-right:0px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover {
+    color:#f80759;
+}
+.banner-content h1 {
+    text-transform: uppercase;
+    font-size:60px;
+    color:#fff;
+    font-weight:700;
+}
+.banner-content h1 span {
+    font-size:48px;
+    color:#12c2e9;
+}
+.banner-content p {
+    max-width:620px;
+    font-size: 16px;
+    line-height:1.7;
+    color:#fff;
+    padding:20px 0 30px;
+}
+.banner-content ul {
+    margin:0;
+}
+.banner-content ul li {}
+.banner-content ul li a {}
+.banner-content ul li a.cta-btn {
+    margin-right:10px;
+    background:linear-gradient(#d20039, #e60115);
+}
+.banner-content ul li a.more-btn {
+    border:2px solid #f80759;
+}
+.banner-content ul li a.cta-btn:hover {
+    background:transparent;
+    border:2px solid #f80759;
+    color:#fff;
+}
+.banner-content ul li a.more-btn:hover {
+    color:#fff;
+    border:2px solid transparent;
+    background:linear-gradient(#d20039, #e60115);
+}
+
+/*==================
+  ABOUT SECTION CSS
+====================*/
+.about-section {
+    background:url('../images/texture-bg.jpg') no-repeat center center;
+    padding:70px 0 50px;
+}
+.about-content .heading .divider {
+    margin:0;
+}
+.about-content h2 {
+    font-size:22px;
+    color:#fff;
+    padding:40px 0 25px;
+}
+.about-content p {
+    font-size:14px;
+    color:#fff;
+    line-height: 1.8;
+    padding-bottom:25px;
+    text-align: justify;
+}
+.about-content a {
+    font-size:14px;
+    font-weight:700;
+    color:#ed213a;
+    transition:all 0.5s ease-in-out;
+}
+.about-content a:hover {
+    color:#12c2e9;
+}
+.video-content {}
+.video-content .nav-tabs{
+    border:none;
+    margin-top:20px
+}
+.video-content .nav-link {
+    padding:0;
+}
+.video-content .nav-fill .nav-item {
+    text-align: inherit;
+    margin-right:13px;
+}
+.video-content .nav-tabs .nav-item.show .nav-link, .video-content .nav-tabs .nav-link.active {
+    background:transparent;
+    border:none;
+}
+.video-content .nav-link img {
+    outline:none;
+    border:none;
+}
+.video-content .nav-fill .nav-item:last-child {
+    margin-right:0px;
+}
+
+
+
+/*==================
+   TRAINERS SECTION CSS
+====================*/
+.trainer-section {
+    background:url('../images/texture-bg.jpg') no-repeat center center;
+    padding:80px 0;
+}
+.trainer-content-section {
+    padding-top:50px;
+}
+.trainer-box img {
+    width:100%;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    transition:all 0.5s ease-in-out;
+    border:2px solid transparent;
+}
+.trainer-box {
+    position: relative;
+}
+.trainer-info {
+    padding:15px 0;
+    background:linear-gradient(#000000e6, #000000);
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    opacity:0;
+}
+.trainer-info h4 {
+    font-size:18px;
+    color:#fff;
+    font-weight:700;
+}
+.trainer-info p {
+    font-size:12px;
+    color:#12c2e9;
+}
+.trainer-box:hover img {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    border:2px solid #f80759;
+} 
+.trainer-box:hover .trainer-info {
+    top: calc(100% - 70px);
+    opacity:1;
+}
+
+/*==================
+   PROGRAM SECTION CSS
+====================*/
+.program-section {
+    padding:80px 0;
+    background:#161616;
+}
+.program-content-section {
+    padding-top:50px;
+}
+.program-box .program-icon {
+    width:100px;
+    height:100px;
+    line-height:100px;
+    text-align: center;
+    border:2px solid #f80759;
+    border-radius:180px;
+    margin:auto;
+}
+.program-box h3 {
+    font-size:22px;
+    font-weight:700;
+    color:#fefefe;
+    padding-top:35px;
+}
+.program-box p {
+    font-size:12px;
+    color:#fefefe;
+    line-height:1.8;
+    padding:25px;
+}
+.program-box a.program-btn {
+    padding:10px 30px;
+    border:2px solid #f80759;
+}
+.program-box a.program-btn:hover {
+    border:2px solid transparent;
+    color:#fff;
+    background:linear-gradient(#d20039, #e60115);
+}
+
+/*==================
+   CLIENT SECTION CSS
+====================*/
+.client-section {
+    background: url('../images/clientbg.jpg') no-repeat center center;
+    background-size: cover;
+    padding:80px 0;
+    position: relative;
+}
+.client-section:before {
+    content:'';
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    background:#000;
+    opacity:0.9;
+}
+.client-content-section {
+    padding-top:50px;
+}
+.client-box {
+    background:#222;
+}
+.client-box .row {
+   align-items: center; 
+}
+.client-image img {
+    height: min-content;
+}
+.client-info h3 {
+    font-size:18px;
+    font-weight:700;
+    color:#12c2e9;
+    padding-bottom:8px;
+}
+.client-info span {
+    font-size:10px;
+    color:#fffefe;
+    display:block;
+}
+.client-info p {
+    font-size:12px;
+    color:#fffefe;
+    line-height: 1.8;
+    padding:30px 20px 25px 0;
+}
+.client-info ul.star-list {
+    padding:0;
+    margin:0;
+}
+.client-info ul.star-list li {
+    margin-right:5px;
+}
+.client-info ul.star-list li i {
+    font-size:18px;
+    color:#db0127;
+}
+.client-content-section .owl-theme .owl-dots .owl-dot {
+    outline: none;
+}
+.client-content-section .owl-theme .owl-dots .owl-dot span {
+    background:#fff;
+    margin-top:35px;
+}
+.client-content-section .owl-theme .owl-dots .owl-dot.active span, .client-content-section .owl-theme .owl-dots .owl-dot:hover span {
+    background:#12c2e9;
+}
+
+/*============================
+  TRAINING WORKOUT SECTION CSS
+==============================*/
+.training-section {
+    padding:60px 0 0;
+    background:url('../images/texture-bg.jpg') no-repeat center center;
+}
+.workout-content {
+    width:100%;
+}
+.workout-content .swiper-button-next:after, .workout-content .swiper-button-prev:after {
+    font-size:20px;
+    font-weight:900;
+}
+
+
+
+
+/*==================
+   PRICING SECTION CSS
+====================*/
+.pricing-section {
+    padding:80px 0;
+    background:url('../images/texture-bg.jpg') no-repeat center center;
+}
+.pricing-content-section {
+    padding-top:50px;
+}
+.pricing-box {
+    border:2px solid #222;
+    transition:all 0.5s ease-in-out;
+}
+.pricing-box .price {
+    padding:30px 0;
+}
+.pricing-box .price h3 {
+    color:#fff;
+    font-size:24px;
+}
+.pricing-box .price h3 span {
+    font-size:48px;
+    font-weight:700;
+}
+.pricing-box .time {
+    padding:15px 0;
+    background: #262424;
+    transition: all 0.5s ease-in-out;
+}
+.pricing-box .time p {
+    font-size:18px;
+    color:#fff;
+}
+.pricing-box .para {
+    padding:30px 0 25px;
+}
+.pricing-box .para ul  {
+    margin:0;
+    padding:0;
+}
+.pricing-box .para ul li {
+    color: #fff;
+    font-size:14px;
+    padding-bottom:12px;
+}
+.pricing-box a.book-btn {
+    padding:10px 30px;
+    border:2px solid #222;
+    margin-bottom:40px;
+}
+.pricing-box:hover {
+    border: 2px solid #12c2e9;
+}
+.pricing-box:hover .time {
+    background:linear-gradient(#d20039, #e60115);
+}
+.pricing-box:hover a.book-btn {
+    border:2px solid transparent;
+    color:#fff;
+    background:linear-gradient(#d20039, #e60115);
+}
+
+
+
+/*==================
+    SECTION CSS
+====================*/
+
+
+
+
+
+/*==================
+    SECTION CSS
+====================*/
+
+
+
+
+
+/*==================
+   BLOG SECTION CSS
+====================*/
+.blog-section {
+    background:#161616;
+    padding:80px 0;
+}
+.blog-content-section {
+    padding-top:50px;
+}
+.blog-box {
+    border:2px solid #222;
+    transition: all 0.4s ease-in-out;
+}
+.blog-box img {
+    width:100%;
+}
+.blog-content-box {
+    padding: 30px 12px;
+}
+.blog-content h4 {
+    font-size:12px;
+    color:#f80759;
+}
+.blog-content h2 {
+    font-size:18px;
+    font-weight:700;
+    color:#fff;
+    padding:10px 0 20px;
+}
+.blog-content p {
+    font-size:14px;
+    color:#fff;
+    line-height:1.7;
+    padding-bottom:15px;
+}
+.blog-content a {
+    font-size:14px;
+    color:#f80759;
+    font-weight:700;
+    transition: all 0.5s ease-in-out;
+}
+.blog-box:hover .blog-content a {
+    color:#12c2e9;
+}
+.trainer-time-info p, .like-react p {
+    font-size:14px;
+    color:#12c2e9;
+    font-weight:700;
+    transition: all 0.5s ease-in-out;
+}
+.like-react p {
+    float:right;
+}
+.blog-content-box .row {
+    padding-top:25px;
+}
+.blog-box:hover {
+    border:2px solid #12c2e9;
+}
+.blog-box:hover .like-react p, .blog-box:hover .trainer-time-info p {
+    color:#f80759;
+}
+
+
+/*===========================
+   QUICK BOOKING SECTION CSS
+=============================*/
+.quick-booking-section {
+    background:url('../images/booking-bg.jpg') no-repeat center center;
+    background-size: cover;
+    padding:80px 0;
+    position: relative;
+}
+.quick-booking-section:before {
+    content: '';
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background:#000;
+    opacity:0.8;
+}
+.booking-content .heading h1 {
+    font-size:48px;
+}
+.booking-content p {
+    font-size:18px;
+    color:#fff;
+    max-width:630px;
+    margin:auto;
+    padding:35px 0 60px;
+}
+.booking-content a.program-book-btn {
+    border:2px solid transparent;
+    color:#fff;
+    background:linear-gradient(#d20039, #e60115);
+}
+.booking-content a.program-book-btn:hover {
+    color:#fff;
+}
+
+
+/*==========================
+   FOOTER TOP SECTION CSS
+============================*/
+.footer-top-section {
+    background: url('../images/texture-bg.jpg') no-repeat center center;
+    padding:80px 0;
+}
+.footer-about-social-box {}
+.footer-about-social-box p {
+    font-size:16px;
+    color:#bdc3c7;
+    line-height:1.8;
+    padding:30px 0;
+    max-width:280px; 
+}
+.footer-about-social-box h4 {
+    font-size:20px;
+    color:#bdc3c7;
+    font-weight:700;
+    padding-bottom:12px;
+}
+.footer-about-social-box ul.social-list li {
+    margin-right:10px;
+}
+.footer-about-social-box ul.social-list li a {
+    display:inline-block;
+    width: 40px;
+    height:40px;
+    line-height:36px;
+    text-align: center;
+    color:#bdc3c7;
+    border:2px solid #555;
+    border-radius:5px;
+    transition:all 0.5s ease-in-out;
+}
+.footer-about-social-box ul.social-list li a:hover {
+    border:2px solid #f80759;
+}
+.quickcontact-heading h2, .tag-heading h2 {
+    font-size:24px;
+    font-weight:700;
+    color:#fff;
+    padding-bottom:35px;
+}
+.footer-box {
+    margin-bottom:25px;
+}
+.footer-box:last-child {
+    margin-bottom:0px;
+}
+.footer-box span {
+    font-size: 18px;
+    color: #12c2e9;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.footer-box p, .footer-address p {
+    color:#bdc3c7;
+    font-size:14px;
+}
+.footer-address p {
+    display: table;
+    max-width:200px;
+    line-height:24px;
+}
+.footer-tag {}
+.footer-tag a.tag-btn {
+    display:inline-block;
+    width:100px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    font-size:15px;
+    color:#fff;
+    border:1px solid #555;
+    margin-right:10px;
+    transition: all 0.5s ease-in-out;
+}
+.tag-btn-1 a.tag-btn:last-child, .tag-btn-2 a.tag-btn:last-child, .tag-btn-3 a.tag-btn:last-child, .tag-btn-4 a.tag-btn:last-child {
+    margin-right:0;
+}
+.tag-btn-1, .tag-btn-2, .tag-btn-3, .tag-btn-4 {
+    margin-bottom:10px;
+}
+.footer-tag a.weightlifing {
+    width:120px;
+}
+.footer-tag a.equipment {
+    width:120px;
+}
+.footer-tag a.tag-btn:hover, .footer-tag a.tag-btn.active {
+    background:linear-gradient(#d20039, #e60115);
+    border:1px solid transparent;
+}
+
+
+
+/*==========================
+   FOOTER MENU SECTION CSS
+============================*/
+.footer-menu-section {
+    background:linear-gradient(#d40035, #e50118);
+    padding:28px 0;
+}
+.footer-menu-section .footer-menu ul.nav {
+    justify-content: center;
+}
+.footer-menu ul li {
+    padding:0 15px;
+}
+.footer-menu ul li a {
+    font-size:16px;
+    color:#fff;
+    transition: all 0.5s ease-in-out;
+}
+.footer-menu ul li a:hover {
+    color:#222;
+}
+
+
+/*=============================
+   FOOTER COPYRIGHT SECTION CSS
+===============================*/
+.footer-copyright-section {
+    background:#101010;
+    padding:20px 0;
+}
+.footer-copyright-content p {
+    font-size:16px;
+    color:#fff;
+}

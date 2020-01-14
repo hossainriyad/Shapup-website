@@ -1,0 +1,322 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 374.98px) {
+    .menu {
+        background-color:#46bbd6e3;
+        position: absolute;
+        left: 0;
+        top: 70px;
+        z-index: 100;
+        height: 100%;
+        width: 100%;
+        display: table;
+        text-align: center;
+        transition: all 0.6s ease-in-out;
+    }
+    .navbar-brand {
+        margin-left:10px;
+    }
+    .navbar-light .navbar-toggler {
+        margin-right:10px;
+    }
+    .banner-content h1 {
+        font-size:30px;
+    }
+    .banner-content h1 span {
+        font-size:22px;
+    }
+    .banner-content ul li a.cta-btn, .banner-content ul li a.more-btn {
+        padding:10px 20px;
+    }
+    .video-content {
+        display: none;
+    }
+    .program-content-section .row {
+        justify-content: center;
+    }
+    .client-info p {
+        padding:10px 10px 10px 0;
+    }
+    .pricing-content-section .row {
+        justify-content:center;
+    }
+    .blog-content-section .row {
+        justify-content: center;
+    }
+    .booking-content .heading h1 {
+        font-size:32px;
+    }
+    .booking-content p {
+        font-size:14px;
+        padding-top:0;
+    }
+    .booking-content a.program-book-btn {
+        margin-right:0;
+    }
+    .footer-quick-contact{
+        padding:40px 0;
+    }
+    .footer-tag {
+        text-align: center;
+    }
+    .tag-btn-1, .tag-btn-2, .tag-btn-3, .tag-btn-4 {
+        margin:0;
+    }
+    .footer-tag a.tag-btn {
+        margin:8px;
+    }
+    .tag-heading {
+        text-align: left;
+    }
+    .footer-menu-section .footer-menu ul.nav {
+        display: block;
+        text-align: center;
+    }
+    .footer-menu ul li {
+        border-bottom:1px solid transparent;
+        padding: 10px 0px;
+        transition:all 0.5s ease-in-out;
+    }
+    .footer-menu ul li:hover {
+        border-bottom:1px dashed #212121;
+    }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width:375px) and (max-width: 575.98px) {
+    .menu {
+        background-color:#46bbd6e3;
+        position: absolute;
+        left: 0;
+        top: 70px;
+        z-index: 100;
+        height: 100%;
+        width: 100%;
+        display: table;
+        text-align: center;
+        transition: all 0.6s ease-in-out;
+    }
+    .navbar-brand {
+        margin-left:10px;
+    }
+    .navbar-light .navbar-toggler {
+        margin-right:10px;
+    }
+    .banner-content h1 {
+        font-size:36px;
+    }
+    .banner-content h1 span {
+        font-size:22px;
+    }
+    .banner-content ul li a.cta-btn, .banner-content ul li a.more-btn {
+        padding:10px 20px;
+    }
+    .video-content {
+        display: none;
+    }
+    .program-content-section .row {
+        justify-content: center;
+    }
+    .client-info p {
+        padding:15px 15px 15px 0;
+    }
+    .pricing-content-section .row {
+        justify-content:center;
+    }
+    .blog-content-section .row {
+        justify-content: center;
+    }
+    .booking-content .heading h1 {
+        font-size:40px;
+    }
+    .booking-content p {
+        font-size:16px;
+    }
+    .footer-about-social-box {
+        text-align: center;
+    }
+    .footer-about-social-box p {
+        margin: auto;
+    }
+    .footer-about-social-box ul.nav {
+        justify-content: center;
+    }
+    .footer-quick-contact{
+        padding:40px 0;
+    }
+    .quickcontact-heading {
+        text-align: center;
+    }
+    .footer-box {
+        max-width: 230px !important;
+        margin: auto !important;
+        margin-bottom: 25px !important;
+    }
+    .footer-tag {
+        text-align: center;
+    }
+    .footer-tag a.weightlifing {
+        width: 100px;
+    }
+    .footer-menu-section .footer-menu ul.nav {
+        display: block;
+        text-align: center;
+    }
+    .footer-menu ul li {
+        border-bottom:1px solid transparent;
+        padding: 10px 0px;
+        transition:all 0.5s ease-in-out;
+    }
+    .footer-menu ul li:hover {
+        border-bottom:1px dashed #212121;
+    }
+        
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .menu {
+        background-color:#46bbd6e3;
+        position: absolute;
+        left: 0;
+        top: 70px;
+        z-index: 100;
+        height: 100%;
+        width: 100%;
+        display: table;
+        text-align: center;
+        transition: all 0.6s ease-in-out;
+    }
+    .banner-content h1 {
+        font-size:40px;
+    }
+    .about-section .row {
+        justify-content: center;
+    }
+    .video-content .nav-fill .nav-item {
+        margin-right: 0px;
+        flex: none;
+    }
+    .video-content .nav-link {
+        border: none;
+    }
+    .trainer-content-section .row {
+        justify-content: center;
+    }
+    .program-content-section .row {
+        justify-content: center;
+    }
+    .pricing-content-section .row {
+        justify-content:center;
+    }
+    .trainer-time-info p, .like-react p {
+        font-size: 12px;
+    }
+    .footer-about-social-box {
+        text-align: center;
+    }
+    .footer-about-social-box p {
+        margin: auto;
+    }
+    .footer-about-social-box ul.nav {
+        justify-content: center;
+    }
+    .footer-quick-contact{
+        padding:40px 0;
+    }
+    .quickcontact-heading {
+        text-align: center;
+    }
+    .footer-box {
+        max-width: 230px !important;
+        margin: auto !important;
+        margin-bottom: 25px !important;
+    }
+    .footer-tag {
+        text-align: center;
+    }
+    .footer-menu ul li {
+        padding: 0 12px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .menu {
+        background-color:#46bbd6e3;
+        position: absolute;
+        left: 0;
+        top: 70px;
+        z-index: 100;
+        height: 100%;
+        width: 100%;
+        display: table;
+        text-align: center;
+        transition: all 0.6s ease-in-out;
+    }
+    .about-section .row {
+        justify-content: center;
+    }
+    .video-content .nav-fill .nav-item {
+        margin-right: 0px;
+        flex: none;
+    }
+    .video-content .nav-link {
+        border: none;
+    }
+    .program-box h3.spa {
+        max-width:120px;
+        margin: auto;
+    }
+    .client-info p {
+        padding:15px 10px 15px 0;
+    }
+    .pricing-content-section .row {
+        justify-content:center;
+    }
+    .footer-about-social-box {
+        text-align: center;
+    }
+    .footer-about-social-box p {
+        margin: auto;
+    }
+    .footer-about-social-box ul.nav {
+        justify-content: center;
+    }
+    
+    .footer-top-section .row {
+        justify-content: center;
+    }
+    .footer-quick-contact, .footer-tag {
+        padding-top:50px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .video-content .nav-fill .nav-item {
+        margin-right: 0px;
+        flex: none;
+    }
+    .video-content .nav-link {
+        border: none;
+        width: 140px;
+    }
+    .about-content h2 {
+        font-size:20px;
+        padding: 20px 0;
+    }
+    .about-content p {
+        padding-bottom:15px;
+    }
+    .blog-content h2 {
+        font-size: 16px;
+    }
+    .trainer-time-info p, .like-react p {
+        font-size:9px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+}
